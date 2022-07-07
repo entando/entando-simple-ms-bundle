@@ -3,13 +3,19 @@
         {
             "name": "simple-ms",
             "stack": "spring-boot",
-            "healthCheckPath" : "/health"
+            "healthCheckPath" : "/health",
+            "permissions" : [
+                {
+                    "clientId" : "pn-aae34d0e-912fd370-cecchisandrone-another-ms-server",
+                    "role" : "another-ms-user"
+                }
+            ]
         }
     ],
     "microfrontends": [],
     "svc": [],
     "name": "entando-simple-bundle",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "This is a very simple bundle with one MS",
     "type": "bundle"
 }
