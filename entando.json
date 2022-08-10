@@ -8,7 +8,7 @@
     ],
     "microfrontends": [],
     "svc": [],
-    "name": "entando-simple-bundle",
+    "name": "entando-simple-ms-bundle",
     "version": "1.0.0",
     "description": "This is a very simple bundle with one MS",
     "type": "bundle"
