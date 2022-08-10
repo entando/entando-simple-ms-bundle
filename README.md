@@ -1,2 +1,2 @@
-# entando-simple-bundle
-This repository should be considered DEPRECATED. Please refer to https://github.com/entando/test-resources/tree/develop/bundles/entando-simple-bundle
+# entando-simple-ms-bundle
+A very simple bundle with a single microservice
