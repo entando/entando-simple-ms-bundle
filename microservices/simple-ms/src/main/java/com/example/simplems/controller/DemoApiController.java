@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @CrossOrigin(origins = "*", allowedHeaders = "*")
-@RequestMapping({"#{environment.SERVER_SERVLET_CONTEXT_PATH + '/api'}", "#{systemProperties['server.servlet.context-path'] + '/api'}"})
+@RequestMapping({"#{environment.SERVER_SERVLET_CONTEXT_PATH + '/api'}", "${customIngress}/api"})
 public class DemoApiController {
 
     @GetMapping("/timestamp")
