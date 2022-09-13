@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HealthCheckController {
 
-    @GetMapping("/health")
+    @GetMapping("#{environment.SERVER_SERVLET_CONTEXT_PATH}/health")
     public void healthCheck() {}
 }

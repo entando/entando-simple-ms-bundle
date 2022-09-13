@@ -4,7 +4,7 @@
             "name": "simple-ms",
             "stack": "spring-boot",
             "healthCheckPath" : "/health",
-            "ingressPath" : "/alex"
+            "ingressPath" : "/custom-ingress-path"
         }
     ],
     "microfrontends": [],
